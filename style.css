@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.Logo{
+    display: flex;
+    color: #fff;
+}
+.Logo :hover{
+    z-index: 1;
+    transform: scale(1.25);
+    box-shadow: 0 25px 40px rgba(216, 26, 26, 0.5); 
+    background-color:  #98a5a5;
+}
+.titre{
+    text-align: center;
+}
+
+.nav{
+    margin-left: 45%;
+    margin-top: -40px;
+    padding-bottom: 1%;
+}
+.nav li a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav a:hover{
+    color: #98a5a5;
+}
+
+
+
+
+#div1, #div2, #div3, #div4{
+    width: 300%;
+    height: 40px;
+    border: 2px solid gainsboro;
+    border-radius: 3px;
+    margin: 1%;
+    text-align: center;
+}
+#div5, #div6, #div7, #div8{
+    width: 300%;
+    height: 40px;
+    border: 2px solid gainsboro;
+    border-radius: 3px;
+    margin: 1%;
+    text-align: center;
+} 
+
+.un{
+    margin-left: 10%;
+}
+.deux{
+    margin-left: 30%;
+}
+#apl{
+    margin-left: 85%;
+    width: 50px;
+    height: 40px;
+    border: 2px solid  #509bd7;
+    border-radius: 3px;
+    background:  #509bd7; 
+    margin-top: 2%;
+}
+.titr{
+    text-align: center;
+}
+
+
+
+.foot{
+    background-color: black;
+    padding: 2%;
+    margin-top: -8%;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.OIP{
+    border-radius: 100%;
+    border: 1px solid #fff;
+    padding: 2%;
+}
+button{
+    background-color: #98a5a5;
+    width: 50px;
+    height: 40px;
+}
+
+.liste1{
+    display: flex;
+    color: #fff;
+    justify-items: center;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.liste2{
+    display: flex;
+    color: #fff;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.bor{
+    background-color:  #98a5a5;
+    height: 8px;
+}
+.click{
+    display: flex;
+    background-color:  #eee;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+}
+.city{
+    color: blue;
+}
+.inside{
+    display: flex;
+    justify-content: space-between;
+}
+.ins1{
+    text-align: center;
+}
+.send{
+    background-color: gray;
+}
+.fin{
+    background-color: #98a5a5;
+}
+.type :hover{
+    z-index: 1;
+    transform: scale(1.25);
+    color-image: #509bd7;
+}
+
+/* bar de type hover */
+.type :hover{
+    z-index: 1;
+    transform: scale(1.25);
+    color-image: #509bd7;
+}

@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* bar de navigation */
+.Logo{
+    display: flex;
+    color: #fff;
+}
+.titre{
+    text-align: center;
+}
+.nav{
+    margin-left: 45%;
+    margin-top: -40px;
+    padding-bottom: 1%;
+}
+.nav li a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav a:hover{
+    color: #98a5a5;
+}
+
+
+/* bar de section 1, section 3, section 4, section 5  */
+.section1{
+    background-image: url(./Images/group-1.jpg);
+    background-size: cover;
+    height: 60vh;
+    background-position-y: 88vh;
+}
+.section3{
+ background-color:  #d35649;
+ color: #fff;
+}
+.section4{
+    background-color:  #98a5a5;
+    color: #fff;
+}
+.section5{
+    background-color: #509bd7;
+    color: #fff;
+}
+/* section/ bloc,... ins1 */
+.bloc{
+    text-align: center;
+    padding-top: 8%;
+}
+.btn2{
+    color: #fff;
+    background-color:  #d35649;
+    height: 10%;
+}
+.chap2{
+    text-align: center;
+    padding: 3%;
+}
+.parag1 p{
+    font-size: 1.5vh;
+}
+.parag2 p{
+    font-size: 1.5vh;
+}
+.group3 img{
+    border-radius: 50%;
+}
+
+.btn1{
+    color: #d35649;
+    background-color: #fff;
+    width: 15%;
+}
+.btn2{
+    color: #98a5a5;
+    background-color: #fff;
+    width: 25%;
+    border: none;
+}
+.btn3{
+    color: #fff;
+    background-color: #d35649;
+    width: 10%;
+    border: none;
+}
+.btn4{
+    color: black;
+    background-color: #fff;
+    width: 10%;
+    height: 5%;
+    font-size: 1.5vh;
+    border: none;
+}
+.part1{
+    background-color: rgba(238, 238, 238, 0.336);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+/* mise en page de footer */
+.foot{
+    background-color: black;
+    padding: 2%;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.OIP{
+    border-radius: 100%;
+    border: 1px solid #fff;
+    padding: 2%;
+}
+button{
+    background-color: #98a5a5;
+    border: none;
+    width: 50px;
+    height: 40px;
+    color: #fff;
+}
+
+.liste1{
+    display: flex;
+    color: #fff;
+    justify-items: center;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.liste2{
+    display: flex;
+    color: #fff;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.bor{
+    background-color:  #98a5a5;
+    height: 8px;
+}
+.click{
+    display: flex;
+    background-color:  #eee;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+}
+.city{
+    color: blue;
+}
+.inside{
+    display: flex;
+    justify-content: space-between;
+}
+.ins1{
+    text-align: center;
+}
+.send{
+    background-color: gray;
+}
+.fin{
+    background-color: #98a5a5;
+}
+
+/* bar de type hover */
+.type :hover{
+    z-index: 1;
+    transform: scale(1.25);
+    color-image: #509bd7;
+}
+@media only screen and (max-width:"900px") {
+    
+    
+}
